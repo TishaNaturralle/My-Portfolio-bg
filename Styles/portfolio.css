@@ -23,3 +23,15 @@ li {
   width: max-content;
   border-radius: 4px;
 }
+.navbar-brand {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-text {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.navbar {
+  background-color: rgb(118, 155, 255);
+}
