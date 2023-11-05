@@ -10,6 +10,8 @@ body {
 h1,
 h2,
 h3,
+h4,
+h7,
 p,
 ul,
 li {
@@ -26,19 +28,34 @@ li {
   width: max-content;
   border-radius: 4px;
 }
+.container-main {
+  margin: 100px 100px 100px 100px;
+}
+.line {
+  border-top: 1px solid black;
+  width: 100%;
+}
 .navbar-brand {
   font-weight: bold;
   font-size: 35px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 .navbar-text {
   font-weight: bolder;
   font-size: 35px;
 }
 .navbar {
-  background-color: rgb(118, 155, 255);
+  background-color: rgb(212, 177, 177);
+}
+.promotional-banner {
+  background: radial-gradient(
+    401px at 50.6% -0.3%,
+    rgba(80, 69, 69, 0.31) 1.2%,
+    rgb(28, 185, 190) 100.2%
+  );
 }
 .skills {
-  display: flex;
+  display: inline-flex;
   text-indent: 1px;
 }
