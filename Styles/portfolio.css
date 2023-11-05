@@ -15,6 +15,9 @@ ul,
 li {
   color: blanchedalmond;
 }
+.box {
+  box-shadow: 10px 5px 5px rgb(106, 107, 189);
+}
 .card-text {
   color: black;
 }
@@ -34,4 +37,8 @@ li {
 }
 .navbar {
   background-color: rgb(118, 155, 255);
+}
+.skills {
+  display: flex;
+  text-indent: 1px;
 }
