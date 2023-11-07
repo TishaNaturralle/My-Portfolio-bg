@@ -17,8 +17,34 @@ ul,
 li {
   color: blanchedalmond;
 }
+h7 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0 auto;
+}
+ul,
+li {
+  float: none;
+}
+li {
+  display: inline;
+  margin: 0 15px;
+}
 .box {
   box-shadow: 10px 5px 5px rgb(106, 107, 189);
+}
+.background {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyNFRYEVVAoME747Mq0jcv275Noru_FOIV2Ue2_AS2NA&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ptext {
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 .card-text {
   color: black;
@@ -56,6 +82,36 @@ li {
   );
 }
 .skills {
-  display: inline-flex;
-  text-indent: 1px;
+  font-size: 25px;
+  text-align: center;
+  list-style: none;
+}
+
+:root {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+.bg-image {
+  background-image: url("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.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    color: red;
+  }
 }
