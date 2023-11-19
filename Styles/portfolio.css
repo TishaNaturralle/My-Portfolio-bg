@@ -73,7 +73,7 @@ li {
   font-size: 35px;
 }
 .navbar {
-  background-color: rgb(212, 177, 177);
+  background-color: whitesmoke;
 }
 .promotional-banner {
   background: radial-gradient(
@@ -122,5 +122,10 @@ li {
 @media (min-width: 900px) {
   h1 {
     color: whitesmoke;
+  }
+
+  .footer {
+    text-decoration: none;
+    text-align: center;
   }
 }
