@@ -35,12 +35,6 @@ li {
 .box {
   box-shadow: 10px 5px 5px rgb(106, 107, 189);
 }
-.background {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyNFRYEVVAoME747Mq0jcv275Noru_FOIV2Ue2_AS2NA&s");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .ptext {
   color: white;
@@ -127,5 +121,8 @@ li {
   .footer {
     text-decoration: none;
     text-align: center;
+  }
+  .box {
+    max-width: 100px;
   }
 }
